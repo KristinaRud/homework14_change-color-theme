@@ -327,14 +327,23 @@ img {
     --main-color: #fff;
     --icon-color: #fff;
     --nav-color:#313131; /* #afafaf; */
-    --title-color:#353A3D; /*#fff*/
+    --title-color:#353A3D; /*#fff*/    
     
-    
+}
+.changed-theme{
+    background: var(--bg-color);
+    color: var(--title-color);
+    padding: 16px;
+    width: 170px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    border: none;
+    border-radius: 4px;
+    margin: auto 20px;
+    cursor: pointer;
 }
 
-.fa-adjust {
-    color: var(--icon-color);
-}
 
 body.dark{
     --bg-color: #000000;

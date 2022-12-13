@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-document.querySelector(".fa-adjust").addEventListener("click", (event) => {
+document.querySelector(".changed-theme").addEventListener("click", (event) => {
   event.preventDefault();
   document.body.classList.toggle("dark");
   const theme = document.body.classList.contains("dark") ? "dark" : "light";
